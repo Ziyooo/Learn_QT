@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->pushButton->setText("新窗口1"); // 修改界面上按钮的文字
+    ui->pushButton->setText("xixi"); // 修改界面上按钮的文字
     ui->pushButton_2->setText("你有毒"); // 还得先运行，再修改才不会飘红，真是有毒
 }
 
